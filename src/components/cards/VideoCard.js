@@ -55,7 +55,7 @@ export default function(props) {
                         <div className="card-details-info"><img src={Compass} className="card-details-icons" alt="Compass" /> {props.distance}</div>
                     </div> :<div className="card-details-info-section">&nbsp;</div>
                 }
-                <div style={{fontWeight: "bold", fontSize: "0.8rem", color: "blue", margin: "0.2rem 0.5rem"}}>{ props.cardState === 'selected' ? "VIEW DETAILS" : "" }</div>
+                <div className="card-details-view-text">{ props.cardState === 'selected' ? "VIEW DETAILS" : "" }</div>
             </div>
         </div>
     );

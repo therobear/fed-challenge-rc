@@ -115,6 +115,13 @@
   .card-details-icons {
     width: 15%;
   }
+
+  .card-details-view-text {
+      font-size: 0.8rem;
+      font-weight: bold;
+      color: #2b619e;
+      margin: 0.2rem 0.5rem;
+  }
   
   @keyframes card-selected {
     from {box-shadow: 0 0.09rem 0.15rem grey;}
