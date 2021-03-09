@@ -1,0 +1,127 @@
+%card-container-base {
+    border-radius: 0.25rem;
+    height: 15rem;
+    width: 15.8rem;
+    margin: 0.8rem 0.8rem;
+    cursor: pointer;
+}
+
+.card-container {
+    @extend %card-container-base;
+    box-shadow: 0 0.09rem 0.15rem grey;
+  }
+  
+  
+  .card-container-unselected {
+    @extend %card-container-base;
+    box-shadow: 0 0.09rem 0.15rem grey;
+    animation-name: card-unselected;
+    animation-duration: 0.5s;
+  }
+  
+  .card-container-selected {
+    @extend %card-container-base;
+    box-shadow: 0 0.5rem 0.75rem grey;
+    animation-name: card-selected;
+    animation-duration: 0.5s;
+  }
+  
+  .card-header {
+    width: 100%;
+    height: 60%;
+    position: relative;
+  }
+  
+  .card-header-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+  }
+  
+  .card-header-playlist {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    left: 65%;
+  }
+  
+  .card-header-playlist-sub-container {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+  }
+  
+  .card-header-playlist-subtext {
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.6rem;
+  }
+  
+  .card-header-playlist-icon {
+    width: 25%;
+    height: 25%;
+  }
+  
+  .card-header-playlist-number {
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.5rem;
+  }
+  
+  .card-details {
+    width: 100%;
+    height: 40%;
+  }
+  
+  .card-details-title-section {
+    display: flex;
+    width: 93%;
+    height: 2.75rem;
+    margin: 0.3rem 0.5rem;
+    justify-content: space-between;
+  }
+  
+  .card-details-title-text {
+    font-weight: bolder;
+    font-size: 1rem;
+    width: 85%;
+  }
+  
+  .card-details-inst-thumb {
+    width: 15%;
+    text-align: end;
+  }
+
+  .card-details-inst-thumb-img {
+      width: 75%;
+  }
+  
+  .card-details-info-section {
+    display: flex;
+    width: 60%;
+    height: 1rem;
+    margin: 0.1rem 0.5rem;
+    font-weight: bold;
+    font-size: 0.7rem;
+  }
+  
+  .card-details-info {
+    margin: 0 0.25rem;
+  }
+  
+  .card-details-icons {
+    width: 15%;
+  }
+  
+  @keyframes card-selected {
+    from {box-shadow: 0 0.09rem 0.15rem grey;}
+    to {box-shadow: 0 0.5rem 0.75rem grey;}
+  }
+  
+  @keyframes card-unselected {
+    from {box-shadow: 0 0.5rem 0.75rem grey;}
+    to {box-shadow: 0 0.09rem 0.15rem grey;}
+  }

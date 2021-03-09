@@ -1,0 +1,92 @@
+{
+    "videoList" : [
+        {
+            "id": 0,
+            "headerImage": "lake-inniscarra-thumb.jpg",
+            "trainerImage": "lake-inniscarra-trainer.jpg",
+            "title": "Lake Inniscarra, Ireland - Pyramid",
+            "length": "30:53",
+            "distance": "6,248 M",
+            "isPlaylist": false,
+            "numberOfVideos": 0,
+            "cardState": "init"
+        },
+        {
+            "id": 1,
+            "headerImage": "performance-series-thumb.jpg",
+            "trainerImage": "performance-series-trainer.jpg",
+            "title": "Performance Series",
+            "length": "",
+            "distance": "",
+            "isPlaylist": true,
+            "numberOfVideos": 9,
+            "cardState": "init"
+        },
+        {
+            "id": 2,
+            "headerImage": "slow-pulls-thumb.jpg",
+            "trainerImage": "slow-pulls-trainer.jpg",
+            "title": "Slow Pulls and Fast Intervals",
+            "length": "44:13",
+            "distance": "9,948 M",
+            "isPlaylist": false,
+            "numberOfVideos": 0,
+            "cardState": "init"
+        },
+        {
+            "id": 3,
+            "headerImage": "20-minutes-to-toned-thumb.jpg",
+            "trainerImage": "20-minutes-to-toned-trainer.jpg",
+            "title": "20 Minutes to Toned",
+            "length": "",
+            "distance": "",
+            "isPlaylist": true,
+            "numberOfVideos": 12,
+            "cardState": "init"
+        },
+        {
+            "id": 4,
+            "headerImage": "charles-race-thumb.jpg",
+            "trainerImage": "charles-race-trainer.jpg",
+            "title": "Charles Race, Boston, Massachusetts",
+            "length": "36:22",
+            "distance": "8,648 M",
+            "isPlaylist": false,
+            "numberOfVideos": 0,
+            "cardState": "init"
+        },
+        {
+            "id": 5,
+            "headerImage": "full-body-hiit-thumb.jpg",
+            "trainerImage": "full-body-hiit-trainer.jpg",
+            "title": "Full Body HIIT Series",
+            "length": "",
+            "distance": "",
+            "isPlaylist": true,
+            "numberOfVideos": 12,
+            "cardState": "init"
+        },
+        {
+            "id": 6,
+            "headerImage": "kafue-river-thumb.jpg",
+            "trainerImage": "kafue-river-trainer.jpg",
+            "title": "Kafue River, Zambia - Power Stroke Pyramid",
+            "length": "36:22",
+            "distance": "8,648 M",
+            "isPlaylist": false,
+            "numberOfVideos": 0,
+            "cardState": "init"
+        },
+        {
+            "id": 7,
+            "headerImage": "shred-and-burn-thumb.jpg",
+            "trainerImage": "shred-and-burn-trainer.jpg",
+            "title": "Shred & Burn Series",
+            "length": "",
+            "distance": "",
+            "isPlaylist": true,
+            "numberOfVideos": 16,
+            "cardState": "init"
+        }
+    ]
+}

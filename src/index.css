@@ -1,20 +1,4 @@
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-}
 
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #fff;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
-.app-main {
-  background-color: #f00;
-}
+/*---------- Cards ----------*/
