@@ -31,8 +31,8 @@ export default function(props) {
     return (
         <div key={`video_${props.headerImage}`} className={updateClassName()} onClick={() => props.setVideoCardSelected(props.index)} data-testid="card-main">
             <div className="card-header">
-                <div className="card-header-image">
-                    <img style={{objectFit: "cover"}} src={`${process.env.PUBLIC_URL}/images/${props.headerImage}`} alt="Header" />
+                <div className="card-header-image-section">
+                    <img className="card-header-image" src={`${process.env.PUBLIC_URL}/images/${props.headerImage}`} alt="Header" />
                 </div>
                 { 
                     props.isPlaylist && <div className="card-header-playlist">
